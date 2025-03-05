@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 :root {
-	--primary-color: #D4A373; /* Café tostado */
-	--background-color: #FEFAE0; /* Crema suave */
-	--dark-color: #3C2A1E; /* Café oscuro */
+	--primary-color: #D4A373;
+	--background-color: #FEFAE0; 
+	--dark-color: #3C2A1E; 
 }
 
 html {
@@ -17,9 +17,8 @@ html {
 	box-sizing: border-box;
 }
 
-/* ********************************** */
-/*             UTILIDADES             */
-/* ********************************** */
+
+/* UTILIDADES  */
 .container {
 	max-width: 120rem;
 	margin: 0 auto;
@@ -31,9 +30,9 @@ html {
 	font-size: 3rem;
 }
 
-/* ********************************** */
-/*               HEADER               */
-/* ********************************** */
+
+/*  HEADER    */
+
 .container-hero {
 	background-color: var(--background-color);
 }
@@ -104,7 +103,7 @@ html {
 	flex-direction: column;
 }
 
-/* ************* NAVBAR ************* */
+/*  NAVBAR  */
 .container-navbar {
 	background-color: var(--primary-color);
 }
@@ -201,9 +200,6 @@ html {
 	color: var(--dark-color);
 }
 
-/* ********************************** */
-/*               BANNER               */
-/* ********************************** */
 .banner {
 	background-image: linear-gradient(100deg, #000000, #00000020),
 		url('img/banner.jpg');
@@ -243,16 +239,10 @@ html {
 	border-radius: 3rem;
 }
 
-/* ********************************** */
-/*            MAIN CONTENT            */
-/* ********************************** */
 .main-content {
 	background-color: var(--background-color);
 }
 
-/* ********************************** */
-/*              FEATURES              */
-/* ********************************** */
 .container-features {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
@@ -293,9 +283,8 @@ html {
 	font-weight: 500;
 }
 
-/* ********************************** */
-/*             CATEGORIES             */
-/* ********************************** */
+/* CATEGORIA  */
+
 
 .top-categories {
 	display: flex;
@@ -372,9 +361,6 @@ html {
 	color: var(--primary-color);
 }
 
-/* ********************************** */
-/*            TOP PRODUCTS            */
-/* ********************************** */
 .top-products {
 	display: flex;
 	flex-direction: column;
@@ -409,7 +395,7 @@ html {
 	color: #fff;
 }
 
-/* Products */
+/* Productos*/
 .container-products {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
@@ -562,9 +548,6 @@ html {
 	margin-left: 0.5rem;
 }
 
-/* ********************************** */
-/*               GALLERY              */
-/* ********************************** */
 .gallery {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
@@ -584,9 +567,6 @@ html {
 	grid-row: 1/3;
 }
 
-/* ********************************** */
-/*              SPECIALS              */
-/* ********************************** */
 .specials {
 	display: flex;
 	flex-direction: column;
@@ -594,9 +574,6 @@ html {
 	margin-bottom: 3rem;
 }
 
-/* ********************************** */
-/*                BLOGS               */
-/* ********************************** */
 .blogs {
 	display: flex;
 	flex-direction: column;
@@ -700,9 +677,9 @@ html {
 	background-color: var(--dark-color);
 }
 
-/* ********************************** */
-/*               FOOTER               */
-/* ********************************** */
+
+/*  FOOTER */
+
 
 .footer {
 	background-color: var(--primary-color);
@@ -870,9 +847,9 @@ html {
 	font-size: 1.6rem;
 }
 
-/* ********************************** */
-/*       MEDIA QUERIES -- 768px       */
-/* ********************************** */
+
+/* MEDIA QUERIES -- 768px */
+
 @media (max-width: 768px) {
 	html {
 		font-size: 55%;
